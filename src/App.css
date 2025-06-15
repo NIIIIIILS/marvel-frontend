@@ -1,0 +1,181 @@
+/* ------ */
+/* GLOBAL */
+/* ------ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.error-message {
+  color: red;
+}
+
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+.header {
+  height: 100px;
+  border-bottom: 3px solid rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+}
+
+.header .right-header {
+  display: flex;
+  gap: 30px;
+}
+
+.header .right-header a {
+  font-size: 20px;
+}
+
+div .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+div img {
+  width: 200px;
+}
+
+a:link {
+  color: white;
+  font-weight: 400;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #ED171E
+}
+
+/* ----- */
+/* PAGES */
+/* ----- */
+
+.comicsIdCharacters {
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+.comicsId {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.comicsId img {
+  width: 180px;
+}
+
+/* ------ */
+/* COMICS */
+/* ------ */
+
+.superheroList {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.character img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.character a {
+  text-decoration: none;
+}
+
+.tagCharacter {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.descriptionCharacter {
+  font-style: italic;
+  color: black;
+}
+
+.zéroDescription {
+  color: #ED171E;
+  font-style: italic;
+}
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+.footer {
+  height: 100px;
+  border-bottom: 3px solid rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .right-footer {
+  width: 100px;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
