@@ -13,6 +13,10 @@ body {
   margin: 0 auto;
 }
 
+main {
+  height: calc(100vh - 235px);
+}
+
 h1 {
   font-size: 42px;
   margin: 40px 0;
@@ -93,6 +97,8 @@ a {
   padding-bottom: 5px;
 }
 
+.imgHome {}
+
 .comicsId {
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +166,7 @@ a {
 
 .footer {
   height: 100px;
-  border-bottom: 3px solid rgb(208, 208, 208);
+  border-top: 3px solid rgb(208, 208, 208);
   display: flex;
   align-items: center;
   justify-content: center;
