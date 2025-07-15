@@ -1,4 +1,5 @@
-import linkedinLogo from "../imgs/linkedin-logo.png";
+import linkedinLogo from "../../imgs/linkedin-logo.png";
+import "./Footer.css";
 
 const Footer = () => {
   return (

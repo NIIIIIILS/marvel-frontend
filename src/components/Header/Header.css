@@ -1,0 +1,44 @@
+.header {
+    height: 100px;
+    border-bottom: 3px solid rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+}
+
+.header .right-header {
+    display: flex;
+    gap: 30px;
+}
+
+.header .right-header a {
+    font-size: 20px;
+}
+
+div .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+div img {
+    width: 200px;
+}
+
+a:link {
+    color: white;
+    font-weight: 400;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #ED171E
+}

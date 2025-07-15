@@ -1,5 +1,6 @@
-import marvelLogo from "../imgs/logo-marvel.png";
+import marvelLogo from "../../imgs/logo-marvel.png";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
